@@ -3,6 +3,7 @@ body {
   background-size: repeat;
   width: 450px;
   font-family: "Poppins", sans-serif;
+  background-position: center;
 }
 
 /* HEADER */
@@ -13,7 +14,7 @@ header {
   background-color: rgb(22, 134, 179);
   margin-top: 100px;
   text-align: center;
-  box-shadow: 0px 7px 5px -2px #000000;
+  box-shadow: 0px 7px 5px -2px rgb(155, 155, 155);
 }
 
 header > h2,
@@ -44,6 +45,7 @@ main {
 }
 
 .section {
+  margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -52,6 +54,10 @@ h1 {
   font-size: 36px;
   font-weight: 600;
   line-height: 1.4em;
+}
+
+.title {
+  margin-top: 40px;
 }
 
 .sub {
