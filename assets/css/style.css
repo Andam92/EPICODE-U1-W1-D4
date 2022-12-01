@@ -64,9 +64,28 @@ h1 {
 
 p {
   font-size: small;
-  line-height: 1.2em;
+  line-height: 1.3em;
+  margin-bottom: 25px;
 }
 
+span {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+li {
+  line-height: 30px;
+}
+
+code {
+  background-color: rgb(207, 207, 207);
+  border-radius: 8px;
+  border: 1px solid grey;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
