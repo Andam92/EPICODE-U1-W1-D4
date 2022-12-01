@@ -10,16 +10,17 @@ body {
 header {
   width: 400px;
   height: 300px;
-  margin: 20px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: rgb(22, 134, 179);
-  margin-top: 100px;
   text-align: center;
   box-shadow: 0px 7px 5px -2px rgb(155, 155, 155);
 }
 
 header > h2,
 h3 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -51,13 +52,10 @@ main {
 }
 
 h1 {
+  padding-top: 40px;
   font-size: 36px;
   font-weight: 600;
   line-height: 1.4em;
-}
-
-.title {
-  margin-top: 40px;
 }
 
 .sub {
@@ -101,6 +99,38 @@ code {
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
+table {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+table caption {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead th {
+  background-color: rgb(54, 87, 197);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+}
+
+table td {
+  padding: 20px;
+  text-align: center;
+  font-size: small;
+}
+
+.td-grey {
+  background-color: rgba(218, 218, 218, 0.603);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
 
 /* FORM */
 
